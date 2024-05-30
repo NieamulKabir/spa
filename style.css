@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  padding-bottom: 66px;
+  text-align: center;
+}
+
+.bg-style {
+  position: absolute;
+  background-image: url(images/Vector1.png);
+  width: 400px;
+  height: 430px;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+.content {
+  position: relative;
+}
+.title {
+  width: 310px;
+  height: 66px;
+  margin-top: 30px;
+  color: #223e5a;
+  font-family: "Arimo Hebrew Subset";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.pistas-container {
+  margin-top: 61px;
+}
+.ski-jumping {
+  width: 63px;
+  height: 63px;
+  position: absolute;
+  margin-left: 223px;
+  margin-top: -21px;
+}
+.pistas-section {
+  position: relative;
+  width: 140px;
+  height: 140px;
+
+  border-radius: 100px;
+  margin-left: 220px;
+  background: #ffffff;
+  text-align: center;
+}
+.pistas-section h2 {
+  color: #000;
+  text-align: center;
+  font-family: "Arimo Hebrew Subset";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 21px;
+}
+.pistas-typo {
+  margin-top: 8px;
+  color: #000;
+  text-align: center;
+  font-family: "Arimo Hebrew Subset";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.ellipse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green {
+  width: 13px;
+  height: 13px;
+  background: #36d946;
+  border-radius: 100px;
+  margin-left: 1px;
+}
+.blue {
+  width: 13px;
+  height: 13px;
+  background: #2d5dbc;
+  border-radius: 100px;
+  margin-left: 1px;
+}
+.red {
+  width: 13px;
+  height: 13px;
+  background: #db2f2f;
+  border-radius: 100px;
+  margin-left: 1px;
+}
+.black {
+  width: 13px;
+  height: 13px;
+  background: #000000;
+  border-radius: 100px;
+  margin-left: 1px;
+}
+
+.domino-container {
+  margin-top: 10px;
+}
+.alpine-skiing {
+  width: 63px;
+  height: 63px;
+  position: absolute;
+  margin-left: 107px;
+  margin-top: -8px;
+}
+
+.domino-section {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  margin-left: 10px;
+  background: #e1f1fb;
+  text-align: center;
+}
+.domino-section h1 {
+  color: #000;
+  width: 83px;
+  text-align: center;
+  font-family: "Arimo Hebrew Subset";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.domino-section p {
+  color: #000;
+  text-align: center;
+  font-family: "Arimo Hebrew Subset";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 4px;
+}
+
+.cota-container {
+  margin-top: 10px;
+}
+.mountaining {
+  width: 63px;
+  height: 63px;
+  position: absolute;
+  margin-left: 299px;
+  margin-top: -22px;
+}
+
+.cota-section {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  margin-left: 220px;
+  background: #223e5a;
+  text-align: center;
+}
+.cota-section h1 {
+  color: #ffffff;
+  width: 83px;
+  text-align: center;
+  font-family: "Arimo Hebrew Subset";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.cota-section p {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Arimo Hebrew Subset";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 4px;
+}
+
+.remonte-container {
+  margin-top: 10px;
+}
+.snowboard {
+  width: 63px;
+  height: 63px;
+  position: absolute;
+  margin-left: 12px;
+  margin-top: -30px;
+}
+
+.remonte-section {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  margin-left: 10px;
+  background: #e1f1fb;
+  text-align: center;
+}
+.remonte-section h1,
+p {
+  color: #000;
+  width: 83px;
+  text-align: center;
+  font-family: "Arimo Hebrew Subset";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+capacidad-container {
+  margin-top: 10px;
+}
+.cross-country {
+  width: 63px;
+  height: 63px;
+  position: absolute;
+  margin-left: 256px;
+  margin-top: -44px;
+}
+
+.capacidad-section {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  margin-left: 220px;
+  background: #223e5a;
+  text-align: center;
+  font-family: "Arimo Hebrew Subset";
+  line-height: normal;
+  color: #ffffff;
+}
+.capacidad-section h1 {
+  width: 83px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+.capacidad-section p {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 4px;
+}
